@@ -3,12 +3,16 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    // =========================
+    // References
+    // =========================
     private Rigidbody2D rb;
     private Vector2 direction;
     private PlayerControls input;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private Vector2 lastDirection = Vector2.down;
+    public Vector2 LastDirection => lastDirection;
 
     [SerializeField]
     private float speed = 5f;
