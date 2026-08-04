@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - UI TXT
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: AbovePlayer
     uniqueID: 1477311817
+    locked: 0
+  - name: UI
+    uniqueID: 3066237681
     locked: 0
   m_RenderingLayers:
   - Default
