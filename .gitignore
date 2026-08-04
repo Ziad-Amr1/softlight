@@ -32,3 +32,7 @@ UserSettings/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Recovery
+Assets/_Recovery/
+Assets/_Recovery.meta
