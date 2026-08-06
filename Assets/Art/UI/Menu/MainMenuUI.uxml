@@ -1,0 +1,22 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/Menu/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=498874f4f56035640967d28f34721379&amp;type=3#MainMenuStyle"/>
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement name="background" picking-mode="Ignore" class="background" style="background-image: url(&quot;project://database/Assets/Art/UI/Menu/MainMenuBackground.png?fileID=2800000&amp;guid=e669efb18ed10f14e84eb4787c7141c7&amp;type=3#MainMenuBackground&quot;);"/>
+        <ui:VisualElement name="overlay" picking-mode="Ignore" class="overlay"/>
+        <ui:VisualElement name="content" class="content">
+            <ui:VisualElement name="logo-container" class="logo-container">
+                <ui:Label name="title" text="SOFT LIGHT" class="title" style="-unity-font-definition: url(&quot;project://database/Assets/Art/UI/pixelFont-7-8x14-sproutLands.ttf?fileID=12800000&amp;guid=3baa2a4568d41d145ae492bd01cf8049&amp;type=3#pixelFont-7-8x14-sproutLands&quot;);"/>
+                <ui:Label name="subtitle" text="A Story Hidden In The Dark" class="subtitle" style="-unity-font-definition: url(&quot;project://database/Assets/Art/UI/pixelFont-7-8x14-sproutLands.ttf?fileID=12800000&amp;guid=3baa2a4568d41d145ae492bd01cf8049&amp;type=3#pixelFont-7-8x14-sproutLands&quot;);"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="menu-container" class="menu-container">
+                <ui:Button name="btn-play" text="Play" class="menu-button" style="-unity-font-definition: url(&quot;project://database/Assets/Art/UI/pixelFont-7-8x14-sproutLands.ttf?fileID=12800000&amp;guid=3baa2a4568d41d145ae492bd01cf8049&amp;type=3#pixelFont-7-8x14-sproutLands&quot;);"/>
+                <ui:Button name="btn-continue" text="Continue" class="menu-button" style="-unity-font-definition: url(&quot;project://database/Assets/Art/UI/pixelFont-7-8x14-sproutLands.ttf?fileID=12800000&amp;guid=3baa2a4568d41d145ae492bd01cf8049&amp;type=3#pixelFont-7-8x14-sproutLands&quot;);"/>
+                <ui:Button name="btn-settings" text="Settings" class="menu-button" style="-unity-font-definition: url(&quot;project://database/Assets/Art/UI/pixelFont-7-8x14-sproutLands.ttf?fileID=12800000&amp;guid=3baa2a4568d41d145ae492bd01cf8049&amp;type=3#pixelFont-7-8x14-sproutLands&quot;);"/>
+                <ui:Button name="btn-exit" text="Exit" class="menu-button" style="-unity-font-definition: url(&quot;project://database/Assets/Art/UI/pixelFont-7-8x14-sproutLands.ttf?fileID=12800000&amp;guid=3baa2a4568d41d145ae492bd01cf8049&amp;type=3#pixelFont-7-8x14-sproutLands&quot;);"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="footer" class="footer">
+            <ui:Label name="version" text="Version 0.1.0" class="version" style="-unity-font-definition: url(&quot;project://database/Assets/Art/UI/pixelFont-7-8x14-sproutLands.ttf?fileID=12800000&amp;guid=3baa2a4568d41d145ae492bd01cf8049&amp;type=3#pixelFont-7-8x14-sproutLands&quot;);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
