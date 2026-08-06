@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c2bac66a1bdae49a8f95d1f4e19ae1, type: 3}
+  m_Name: Oak Sapling
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  id: oak_sapling
+  itemName: Oak Sapling
+  description: Oak Sapling
+  price: 5
+  icon: {fileID: -4336392411842979198, guid: 82780ff4f0080f2429bb0c23f7d82bfc, type: 3}
+  maxStack: 99
