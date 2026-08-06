@@ -1,3 +1,4 @@
+// ./Assets/Scripts/UI/MenuController.cs
 using UnityEngine;
 
 public class MenuController : MonoBehaviour
